@@ -1,0 +1,24 @@
+{
+  "name": "dkt-digital-budget-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "迪卡侬中国数字化项目预算管理平台 - 可运行 Demo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir=false",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "antd": "^5.21.6",
+    "dayjs": "^1.11.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "jsdom": "^30.1.1",
+    "vite": "^5.4.10"
+  }
+}
