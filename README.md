@@ -4,6 +4,17 @@
 
 ---
 
+## 文档
+
+| 文档 | 内容 |
+| --- | --- |
+| [`docs/PRODUCT-SPEC.md`](docs/PRODUCT-SPEC.md) | 产品方案文档：定位、角色场景、功能模块、业务规则、流程状态机、分期实施 |
+| [`docs/TECH-ARCHITECTURE.md`](docs/TECH-ARCHITECTURE.md) | 技术架构与实现方案：分层、领域层设计、状态层、构建、测试、生产化路线 |
+| [`DESIGN.md`](DESIGN.md) | 方法论与数据模型设计输入（需求解码、ER 图、计费引擎、集成边界） |
+| `docs/v0.2 ~ v1.6/` | 逐版本设计 / 需求 / 评审记录 |
+
+---
+
 ## 快速开始
 
 ```bash
@@ -78,4 +89,4 @@ node tests/smoke-singlefile.cjs
 
 ## 版本
 
-当前版本 **v0.9**。版本演进与设计决策详见 `docs/` 目录下对应文档。
+当前版本 **v1.7**。版本演进与设计决策详见 `docs/` 目录下对应文档。
